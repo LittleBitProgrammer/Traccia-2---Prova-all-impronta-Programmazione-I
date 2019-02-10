@@ -27,7 +27,6 @@ double calculateDistance(point_struct,point_struct);
 void indexMinimumDistance(point_struct *, int);
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
     int array_size = sizeof(points) / sizeof(points[0]);
     indexMinimumDistance(points, array_size);
     return 0;
